@@ -1,7 +1,5 @@
 package com.mejia.richard.zemoga;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
 

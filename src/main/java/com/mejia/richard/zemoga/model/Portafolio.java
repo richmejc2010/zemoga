@@ -14,8 +14,12 @@ public class Portafolio {
     public Portafolio(int idPortafolio, String description, String imageUrl, String twitterUserName, String title) {
         this.idPortafolio = idPortafolio;
         this.description = description;
+        this.imageUrl = imageUrl;
         this.twitterUserName = twitterUserName;
         this.title = title;
+    }
+
+    public Portafolio() {
     }
 
     @Id

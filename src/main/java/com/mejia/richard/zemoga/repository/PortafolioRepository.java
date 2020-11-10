@@ -10,5 +10,5 @@ public interface PortafolioRepository extends JpaRepository<Portafolio, Integer>
 
     void savePortafolio(Portafolio portafolio);
 
-    void deleteAll(Integer id);
+    void delete(Integer id);
 }

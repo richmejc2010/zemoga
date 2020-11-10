@@ -13,6 +13,7 @@ import java.util.List;
 public class PortafolioService {
     @Autowired
     private PortafolioRepository portafolioRepository;
+
     public List<Portafolio> listAll() {
         return portafolioRepository.findAll();
     }
@@ -21,7 +22,7 @@ public class PortafolioService {
         portafolioRepository.save(portafolio);
     }
 
-    public void deleteAll(Integer id) {
+    public void delete(Integer id) {
         portafolioRepository.delete(id);
     }
 }
